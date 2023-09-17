@@ -1,0 +1,134 @@
+#home {
+    position: relative;
+    //background: url('../../assests/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  
+    // disable the default padding styles
+    .app__wrapper {
+      padding: 0;
+  
+      .copyright {
+        display: none;
+      }
+    }
+  }
+  
+  .app__kadet_university {
+    flex: 1;
+    /* width: 100%;
+    height: 150%; */
+    height: 600px;
+    flex-direction: row;
+    background: url('../../assests/Kadet_University_Planet_asset.png');
+    background-size: cover;
+    background-position: center;
+  
+    padding: 0rem 2rem 0rem;
+  
+    @media screen and (min-width: 2000px) {
+      padding-top: 8rem;
+    }
+  
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+    }
+  
+    @media screen and (max-width: 450px) {
+      padding: 0rem 1rem 2rem;
+    }
+  }
+  
+  .app__kadet_university-info {
+    flex: 1 0.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    //width: 50%;
+    height: 100%;
+  
+    margin: 0 2rem;
+  
+    @media screen and (max-width: 1200px) {
+      width: 100%;
+      margin-right: 2rem;
+    }
+  }
+  
+  .app__kadet_university-badge {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+  
+    .badge-cmp
+    {
+      padding: 1rem 2rem;
+      background: transparent;
+      border-radius: 15px;
+      flex-direction: row;
+      width: auto;
+      margin-bottom: 1rem;
+  
+      //box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      p {
+        width: 85%;
+        
+        text-align:left;
+      }
+    }
+  
+  
+    
+  
+    @media screen and (max-width: 1200px) {
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  }
+  
+  
+  .app__kadet_university-img {
+    flex: 0.6;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+/* 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; */
+    
+    margin: 0 10rem;
+  
+    /* @media screen and (max-width: 1200px) {
+      width: 100%;
+      margin-right: 0rem;
+    } */
+
+    //-------------
+    
+    
+    
+  
+    img {
+        margin-top: 70px;
+    padding: 1.5rem;
+      width: 90%;
+      object-fit: contain;
+      z-index: 1;
+    }
+  
+   
+  
+    @media screen and (max-width: 1200px) {
+      margin: 2rem 0rem;
+    }
+  }
