@@ -1,13 +1,11 @@
 button {
   display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: center;
-  // width: 10.75rem;
-  max-width: 18.88rem;
-  height: 2.5rem;
   padding: 0.625rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  align-self: stretch;
+  height: 2.5rem;
   border-radius: 6.25rem;
   border: none;
   background: linear-gradient(110deg, #9aeca4 0%, #13678b 100%);
@@ -17,7 +15,6 @@ button {
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.016rem;
-  align-self: stretch;
   cursor: pointer;
   /*
   &:hover {
