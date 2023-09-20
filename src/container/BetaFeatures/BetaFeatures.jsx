@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import { AppWrap, MotionWrap } from "../../wrapper";
-import { urlFor, client } from "../../client";
+//import { AppWrap, MotionWrap } from "../../wrapper";
+//import { urlFor, client } from "../../client";
 import { images } from "../../constants";
 import "../../client";
-import "./Beta_features.scss";
+import "./BetaFeatures.scss";
 
-const beta_features = [
+const data = [
   {
     title: "Send, receive, and import tokens",
     description:
@@ -44,38 +44,30 @@ const beta_features = [
     imgUrl: images.kadet_overview,
   },
 ];
-const Beta_features = () => {
-  /* const [beta_features, setBeta_features] = useState([]);
-  useEffect(() => {
-    const query = '*[_type == "beta_features"]';
-
-    client.fetch(query).then((data) => setBeta_features(data));
-  }, []);
-
-  console.log(beta_features); */
+const features = () => {
   return (
     <>
       {/* <h2 className="head-text">Features</h2> */}
 
       <div className="app__features">
-        {beta_features.map((beta_feature, index) => (
+        {data.map((feature, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.6, type: "tween" }}
             className="app__feature-item"
-            key={beta_feature.title + index}
+            key={feature.title + index}
           >
-            <img src={beta_feature.imgUrl} alt={beta_feature.title} />
+            <img src={feature.imgUrl} alt={feature.title} />
             {/* <img src={urlFor(beta_feature.imgUrl)} alt={beta_feature.title} /> */}
             <h2 className="bold-text" style={{ marginTop: 20 }}>
-              {beta_feature.title}
+              {feature.title}
             </h2>
             <p
               className="p-text"
               style={{ marginTop: 10, textAlign: "center" }}
             >
-              {beta_feature.description}
+              {feature.description}
             </p>
           </motion.div>
         ))}
@@ -84,4 +76,14 @@ const Beta_features = () => {
   );
 };
 
-export default Beta_features;
+export default features;
+
+/*const features = () => {
+   const [beta_features, setBeta_features] = useState([]);
+  useEffect(() => {
+    const query = '*[_type == "beta_features"]';
+
+    client.fetch(query).then((data) => setBeta_features(data));
+  }, []);
+
+  console.log(beta_features); */

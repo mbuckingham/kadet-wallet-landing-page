@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import { images } from "../../constants";
-import { urlFor, client } from "../../client";
-import { Button, Button_university } from "../../components";
-import "./Kadet_university.scss";
+//import { images } from "../../constants";
+//import { urlFor, client } from "../../client";
+import { ButtonUniversity } from "../../components";
+import "./KadetUniversity.scss";
 
-const Kadet_university = () => {
+const KadetUniversity = () => {
   /* const [hero_section, setHero_section] = useState([]);
 
   useEffect(() => {
@@ -35,7 +35,7 @@ const Kadet_university = () => {
                   beyond.
                 </p>
               </div>
-              <Button_university />
+              <ButtonUniversity />
             </div>
           </div>
         </div>
@@ -65,4 +65,4 @@ const Kadet_university = () => {
   );
 };
 
-export default Kadet_university;
+export default KadetUniversity;

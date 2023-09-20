@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
-import { urlFor, client } from "../../client";
-import "./Component_4.scss";
 
-const Component_4 = () => {
+//import { urlFor, client } from "../../client";
+import "./Component4.scss";
+
+const Component4 = () => {
   return (
     <div className="app__community app__flex">
       <div className="app__flex app_blur">
@@ -33,7 +34,7 @@ const Component_4 = () => {
                 <div className="CTA_community">
                   <div className="badge-cmp app__flex__community">
                     <h2 className="bold-text">Contribute</h2>
-                    <img src={images.green_button} />
+                    <img src={images.green_button} alt="green-button" />
                   </div>
                   <div className="badge-cmp">
                     <p className="p-text">Learn aboout us and what we do</p>
@@ -70,7 +71,7 @@ const Component_4 = () => {
                 <div className="CTA_community">
                   <div className="badge-cmp app__flex__community">
                     <h2 className="bold-text">Tech Fleet 101</h2>
-                    <img src={images.green_button} />
+                    <img src={images.green_button} alt="green-button" />
                   </div>
                   <div className="badge-cmp">
                     <p className="p-text">Learn aboout us and what we do</p>
@@ -85,4 +86,4 @@ const Component_4 = () => {
   );
 };
 
-export default Component_4;
+export default Component4;

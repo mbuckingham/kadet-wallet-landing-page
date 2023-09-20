@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
 
 :root {
-  --font-base: "DM Sans", sans-serif;
-
+  --font-base: "Work Sans", sans-serif;
+  --tertiary-color-text: #002c33; /*nav button*/
   --primary-color: #1e1e39;
   --secondary-color: #98cc7b;
   --black-color: #030303;

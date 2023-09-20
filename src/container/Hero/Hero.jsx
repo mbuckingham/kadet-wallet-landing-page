@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import { images } from "../../constants";
 
 import { Button } from "../../components";
-/* import { urlFor } from "../../client";
-import client from "../../client"; */
-import { urlFor, client } from "../../client";
+// import { urlFor } from "../../client";
+//import client from "../../client";
+import { client } from "../../client";
 import "./Hero.scss";
 
 const Hero = () => {

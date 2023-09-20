@@ -1,7 +1,7 @@
 import React from "react";
-import "./Background_animated.scss";
+import "./BackgroundAnimated.scss";
 
-const background_animated = () => {
+const BackgroundAnimated = () => {
   return (
     <div>
       <div id="stars"></div>
@@ -11,4 +11,4 @@ const background_animated = () => {
   );
 };
 
-export default background_animated;
+export default BackgroundAnimated;

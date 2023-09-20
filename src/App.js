@@ -1,25 +1,25 @@
 import React from "react";
 
 import {
-  Beta_features,
-  Component_4,
+  BetaFeatures,
+  Component4,
   Footer,
   Hero,
-  Kadet_university,
+  KadetUniversity,
 } from "./container";
 
-import { Navbar, Background_animated } from "./components";
+import { Navbar, BackgroundAnimated } from "./components";
 import "./App.css";
 
 function App() {
   return (
     <div className="app">
-      <Background_animated />
+      <BackgroundAnimated />
       <Navbar />
       <Hero />
-      <Kadet_university />
-      <Beta_features />
-      <Component_4 />
+      <KadetUniversity />
+      <BetaFeatures />
+      <Component4 />
       <Footer />
     </div>
   );

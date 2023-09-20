@@ -1,8 +1,8 @@
 import React from "react";
-import "./Button_university.scss";
-import { images } from "../../constants";
+import "./ButtonUniversity.scss";
+//import { images } from "../../constants";
 
-const Button_university = () => {
+const ButtonUniversity = () => {
   return (
     <div className="btn1">
       {/* /*className="p-text" onClick={handleSubmit}*/}
@@ -12,4 +12,4 @@ const Button_university = () => {
   );
 };
 
-export default Button_university;
+export default ButtonUniversity;
