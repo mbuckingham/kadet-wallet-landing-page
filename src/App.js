@@ -5,7 +5,7 @@ import {
   Component4,
   Footer,
   Hero,
-  KadetUniversity,
+  KadetMission,
 } from "./container";
 
 import { Navbar } from "./components";
@@ -29,7 +29,6 @@ function App() {
         <Hero />
       </section>
       <section style={{
-        //background: "lightblue",
         display: "flex",
         width: "100%",
         padding: "9rem 9%",
@@ -38,7 +37,7 @@ function App() {
         alignSelf: "stretch",
         gap: "9rem"
       }}>
-        <KadetUniversity />
+        <KadetMission />
       </section>
       <section style={{
         display: "flex",

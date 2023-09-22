@@ -1,4 +1,5 @@
-export default function WrapperHero(props) {
+import React from "react";
+export default function Wrapper(props) {
     return <div style={{
         //border: "2px solid red",
         display: "flex",

@@ -3,11 +3,11 @@ import "./Hero.scss";
 import chromeLogo from "../../assets/chrome_logo.png";
 import heroRockets from "../../assets/hero_rockets.png";
 import { ButtonHero } from "../../components";
-import { WrapperHero } from "../../components";
+import { Wrapper } from "../../components";
 
 const Hero = () => {
   return (
-    <WrapperHero className="heroWrapper">
+    <Wrapper className="heroWrapper">
       <div
         className="heroImage"
         style={{
@@ -66,7 +66,7 @@ const Hero = () => {
         </p>
         <ButtonHero icon={chromeLogo}>Download Extention</ButtonHero>
       </div>
-    </WrapperHero>
+    </Wrapper>
   );
 };
 
