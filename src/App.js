@@ -8,20 +8,63 @@ import {
   KadetUniversity,
 } from "./container";
 
-import { Navbar, BackgroundAnimated } from "./components";
+import { Navbar } from "./components";
 import "./App.css";
 
 function App() {
+
   return (
-    <div className="app">
-      <BackgroundAnimated />
+    <div className="app" style={{ background: "var(--stars-bg)" }}>
       <Navbar />
-      <Hero />
-      <KadetUniversity />
-      <BetaFeatures />
-      <Component4 />
+      <section className="container" style={{
+        display: "flex",
+        width: "100%",
+        padding: "13rem 9%",
+        flexDirection: "column",
+        alignItems: "center",
+        alignSelf: "stretch",
+        gap: "9rem",
+
+      }}>
+        <Hero />
+      </section>
+      <section style={{
+        //background: "lightblue",
+        display: "flex",
+        width: "100%",
+        padding: "9rem 9%",
+        flexDirection: "column",
+        alignItems: "center",
+        alignSelf: "stretch",
+        gap: "9rem"
+      }}>
+        <KadetUniversity />
+      </section>
+      <section style={{
+        display: "flex",
+        width: "100%",
+        padding: "9rem 9%",
+        flexDirection: "column",
+        alignItems: "center",
+        alignSelf: "stretch",
+        gap: "9rem"
+      }}>
+        <BetaFeatures />
+      </section>
+      <section style={{
+        display: "flex",
+        width: "100%",
+        padding: "9rem 9%",
+        flexDirection: "column",
+        alignItems: "center",
+        alignSelf: "stretch",
+        gap: "9rem"
+      }}>
+        <Component4 />
+      </section>
       <Footer />
     </div>
+
   );
 }
 

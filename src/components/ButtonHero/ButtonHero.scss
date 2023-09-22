@@ -1,0 +1,29 @@
+.btn2 {
+  display: flex;
+  width: 20.75rem;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.56rem;
+  flex-shrink: 0;
+  border-radius: 4rem;
+  border: none;
+  background: linear-gradient(110deg, #9aeca4 0%, #13678b 100%);
+  color: var(--tertiary-color-text);
+  font-family: var(--font-base);
+  font-size: 1.44rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.014rem;
+  line-height: 120%;
+  text-align: center;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.btn-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}

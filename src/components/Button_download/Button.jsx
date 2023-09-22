@@ -1,14 +1,17 @@
 import React from "react";
 import "./Button.scss";
 
-const Button = () => {
+const Button = ({ buttonText, onClick, icon }) => {
+  const handleButtonClick = () => {
+    if (onClick) {
+      onClick();
+    }
+  };
   return (
-    <div className="btn">
-      <button type="button" /*className="p-text" onClick={handleSubmit}*/>
-        {/* {!loading ? "Send Message" : "Sending..."} */}
-        Download Extension
-      </button>
-    </div>
+    <button className="btn" onClick={handleButtonClick}>
+      {icon && <img src={icon} alt="icon" className="btn-icon" />}
+      {buttonText}
+    </button>
   );
 };
 

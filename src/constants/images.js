@@ -65,6 +65,7 @@ const images = {
   kadetDashboard: require("../assets/kadet_dashboard.png"),
   logoText: require("../assets/logo_text.png"),
   logoCosmonaut: require("../assets/logo_cosmonaut.png"),
+  starsBg: require("../../src/assets/stars_bg.png"),
   // ... other image imports ...
 };
 

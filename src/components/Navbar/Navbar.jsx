@@ -13,6 +13,7 @@ const Navbar = () => {
   const bgColor = "var(--tertiary-color-bg)";
   const textColor = "var(--primary-color-text)";
   const fontFamily = "var(--font-base)";
+  const handleDownloadClick = () => {};
 
   return (
     <nav
@@ -123,7 +124,10 @@ const Navbar = () => {
               flexShrink: "0",
             }}
           >
-            <Button />
+            <Button
+              buttonText="Download Extention"
+              onClick={handleDownloadClick}
+            />
           </div>
         </ul>
       </div>

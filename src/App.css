@@ -1,10 +1,10 @@
 .app {
-  background-color: var(--primary-color);
+  background-color: var(--stars-bg);
   font-family: var(--font-base);
 }
 
 .app__whitebg {
-  background-color: var(--white-color);
+  background-color: var(--stars-color);
 }
 
 .app__primarybg {
@@ -44,13 +44,13 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-
-  p {
-    text-transform: uppercase;
-    color: var(--white-color);
-  }
+}
+p {
+  text-transform: uppercase;
+  color: var(--white-color);
 }
 
+/*
 .head-text {
   font-size: 2.75rem;
   font-weight: 800;
@@ -87,7 +87,6 @@
   font-weight: 600;
   color: var(--white-color);
   text-align: center;
-  
 
   @media screen and (min-width: 2000px) {
     font-size: 2rem;
@@ -187,3 +186,4 @@
     padding: 2rem;
   }
 }
+*/
