@@ -51,13 +51,14 @@ function App() {
         <BetaFeatures />
       </section>
       <section style={{
+
         display: "flex",
         width: "100%",
         padding: "9rem 9%",
         flexDirection: "column",
         alignItems: "center",
         alignSelf: "stretch",
-        gap: "9rem"
+        gap: "9rem",
       }}>
         <Component4 />
       </section>

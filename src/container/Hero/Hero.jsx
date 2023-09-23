@@ -11,7 +11,6 @@ const Hero = () => {
       <div
         className="heroImage"
         style={{
-          //border: "2px solid blue",
           display: "flex",
           height: "45.875rem",
           justifyContent: "center",
@@ -25,7 +24,6 @@ const Hero = () => {
       <div
         className="heroText"
         style={{
-          //border: "2px solid green",
           display: "flex",
           flexDirection: "column",
           justifyContent: "flex-start",

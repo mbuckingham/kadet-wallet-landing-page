@@ -1,50 +1,60 @@
-.app__about {
-    flex: 1;
-    width: 100%;
-    flex-direction: column;
-  }
-  
-  .app__features {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-top: 2rem;
-  }
-  
-  .app__feature-item {
-    box-sizing: border-box;
-    padding: 40px 24px;
-    width: 400px;
-    height: 500px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    margin: 1rem;
-    background-blend-mode: overlay;
-    background: linear-gradient(102.61deg, #9AECA4 10.94%, #13678B 122.25%);
-    background: linear-gradient(180deg, rgba(243, 253, 195, 0.1) 0%, rgba(228, 252, 112, 0) 105.3%);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-image-source: linear-gradient(102.61deg, #9AECA4 10.94%, #13678B 122.25%);
-    border: 3px currentColor;
-    border-radius: 25px;
-    gap: 5px;
-  
-    img {
-      width: 100%;
-      height: 300px;
-      border-radius: 15px;
-      object-fit: cover;
-    }
-  
-    @media screen and (min-width: 2000px) {
-      width: 370px;
-      margin: 2rem 4rem;
-  
-      img {
-        height: 300px;
-      }
-    }
-  }
+.betaContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 2.5rem;
+  align-self: stretch;
+}
+
+.card {
+  display: flex;
+  height: 33.75rem;
+  width: 33.75rem;
+  padding: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  border-radius: 1.25rem;
+  border: 2px solid var(--Gradient, #9aeca4);
+  background-filter: blur(0.75rem);
+}
+// card header + card text h1+p
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+.cardHeader {
+  color: var(--primary-color-header);
+  font-family: var(--font-base);
+  font-size: 2.06rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.021rem;
+  text-transform: none;
+}
+
+.cardText {
+  color: var(--secondary-color-text);
+  font-family: var(--font-base);
+  font-size: 1.44rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.014rem;
+  text-transform: none;
+  text-align: center;
+  align-self: stretch;
+}
+
+.cardImage {
+  flex: 1 0 0;
+  align-self: stretch;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

@@ -10,15 +10,12 @@
   --primary-color-header: #e3e8e7;
 
   --stars-bg: url("../src/assets/stars_bg.png"); /*app bg*/
+  --planet-bg: url("../src/assets/planet_footer.png"); /*component4 bg */
+  --primary-color-bg: var(
+    --Gradient,
+    linear-gradient(110deg, #9aeca4 0%, #13678b 100%)
+  );
   --tertiary-color-bg: rgba(41, 102, 112, 0.16); /*nav bg*/
-
-  --primary-color: #1e1e39;
-  --secondary-color: #98cc7b;
-  --black-color: #030303;
-  --lightGray-color: #e4e4e4;
-  --gray-color: #262729;
-  --brown-color: #46364a;
-  --white-color: #ffffff;
 }
 
 * {
