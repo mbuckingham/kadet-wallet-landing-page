@@ -52,9 +52,9 @@ const Component4 = () => {
           </div>
         </div>
       </div>
-      <div className="footerContainer">
-        <div className="footerLeft">
-          <div className="footerContent">
+      <div className="frameContainer">
+        <div className="frameLeft">
+          <div className="frameContent">
             <div className="frameHeader">
               <h1>Contribute</h1>
               <button
@@ -68,7 +68,7 @@ const Component4 = () => {
               <p>Add to the open-source project</p>
             </div>
           </div>
-          <div className="footerContent">
+          <div className="frameContent">
             <div className="frameHeader">
               <h1>Join Us</h1>
               <button
@@ -83,8 +83,8 @@ const Component4 = () => {
             </div>
           </div>
         </div>
-        <div className="footerRight">
-          <div className="footerContent">
+        <div className="frameRight">
+          <div className="frameContent">
             <div className="frameHeader">
               <h1>Tech Fleet 101</h1>
               <button
@@ -98,7 +98,7 @@ const Component4 = () => {
               <p>Our mission, values, and principles</p>
             </div>
           </div>
-          <div className="footerContent">
+          <div className="frameContent">
             <div className="frameHeader">
               <h1>Learn More</h1>
               <button
@@ -119,94 +119,3 @@ const Component4 = () => {
 };
 
 export default Component4;
-
-/**import React from "react";
-import { motion } from "framer-motion";
-import { images } from "../../constants";
-
-//import { urlFor, client } from "../../client";
-import "./Component4.scss";
-
-const Component4 = () => {
-  return (
-    <div className="app__community app__flex">
-      <div className="app__flex app_blur">
-        {/* kadet Wallet content }
-        <motion.div
-          whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-          transition={{ duration: 0.1 }}
-          className="app__community-info"
-        >
-          <div className="app__community-badge">
-            <div className="badge-cmp app__flex">
-              <div style={{ marginLeft: 20 }}>
-                {/* Community logo }
-                <div className="badge-cmp">
-                  <img src={images.kadet_logo_white} alt="kadet_logo" />
-                </div>
-                {/* Community description /}
-                <div style={{ marginTop: 10, marginBottom: 30 }}>
-                  <p className="badge-cmp p-text">
-                    Created by Tech Fleet, Kadet Wallet includes all the
-                    features you’d expect from a great crypto wallet - plus
-                    more: we are the first multi-chain wallet.
-                  </p>
-                </div>
-                {/* CTA Community /}
-                <div className="CTA_community">
-                  <div className="badge-cmp app__flex__community">
-                    <h2 className="bold-text">Contribute</h2>
-                    <img src={images.green_button} alt="green-button" />
-                  </div>
-                  <div className="badge-cmp">
-                    <p className="p-text">Learn aboout us and what we do</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-
-        {/* Tech Fleet Community content /}
-        <motion.div
-          whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-          transition={{ duration: 0.1 }}
-          className="app__community-info"
-        >
-          <div className="app__community-badge">
-            <div className="badge-cmp app__flex">
-              <div style={{ marginLeft: 20 }}>
-                {/* Community logo /}
-                <div className="badge-cmp">
-                  <img src={images.tech_fleet_logo} alt="tech_fleet_logo" />
-                </div>
-                {/* Community description /}
-                <div style={{ marginTop: 10, marginBottom: 30 }}>
-                  <p className="badge-cmp p-text">
-                    Tech Fleet is the first DAO for community-driven
-                    decentralized apprenticeship programs in tech. Join us as an
-                    apprentice, team lead or shadower in one of our many great
-                    projects, including Kadet Wallet.
-                  </p>
-                </div>
-                {/* CTA Community /}
-                <div className="CTA_community">
-                  <div className="badge-cmp app__flex__community">
-                    <h2 className="bold-text">Tech Fleet 101</h2>
-                    <img src={images.green_button} alt="green-button" />
-                  </div>
-                  <div className="badge-cmp">
-                    <p className="p-text">Learn aboout us and what we do</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-      </div>
-    </div>
-  );
-};
-
-export default Component4;
- */

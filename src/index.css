@@ -3,19 +3,25 @@
 
 :root {
   --font-base: "Work Sans", sans-serif;
-
-  --primary-color-text: #fff; /*nav text*/
+  /*text-color */
+  --primary-color-text: #fff;
   --secondary-color-text: #c1c9be;
-  --tertiary-color-text: #002c33; /*nav btn*/
+  --tertiary-color-text: #002c33;
+  --quaternary-color-text: #f1f4f3;
+  /*header-color */
   --primary-color-header: #e3e8e7;
-
-  --stars-bg: url("../src/assets/stars_bg.png"); /*app bg*/
-  --planet-bg: url("../src/assets/planet_footer.png"); /*component4 bg */
+  --secondary-color-header: #9aeca4;
+  --tertiary-color-header: #131734;
+  /*backgrounds */
+  --stars-bg: url("../src/assets/stars_bg.png");
+  --planet-bg: url("../src/assets/planet_footer.png");
+  --astronaut-bg: url("../src/assets/logo_astronaut.png");
   --primary-color-bg: var(
     --Gradient,
     linear-gradient(110deg, #9aeca4 0%, #13678b 100%)
   );
-  --tertiary-color-bg: rgba(41, 102, 112, 0.16); /*nav bg*/
+  --secondary-color-bg: #171c1b;
+  --tertiary-color-bg: rgba(41, 102, 112, 0.16);
 }
 
 * {

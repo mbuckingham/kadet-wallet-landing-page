@@ -1,6 +1,5 @@
 import React from "react";
 import WrapperBeta from "../../components/WrapperBeta/WrapperBeta";
-
 import feature1 from "../../assets/feature_1.png";
 import feature2 from "../../assets/feature_2.png";
 import feature3 from "../../assets/feature_3.png";

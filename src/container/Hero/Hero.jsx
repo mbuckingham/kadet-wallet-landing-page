@@ -1,5 +1,4 @@
 import React from "react";
-import "./Hero.scss";
 import chromeLogo from "../../assets/chrome_logo.png";
 import heroRockets from "../../assets/hero_rockets.png";
 import { ButtonHero } from "../../components";

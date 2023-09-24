@@ -1,7 +1,6 @@
 import React from "react";
 import { ButtonHero, Wrapper } from "../../components";
 import kadetMission from "../../assets/planet_tokens.png";
-import "./KadetMission.scss";
 
 const KadetMission = () => {
   return (

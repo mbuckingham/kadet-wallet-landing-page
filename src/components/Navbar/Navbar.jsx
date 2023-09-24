@@ -1,44 +1,37 @@
 import React from "react";
-//import { HiMenuAlt4, HiX } from "react-icons/hi";
-//import { motion } from "framer-motion";
-import "./Navbar.scss";
-
 import { Button } from "../../components";
-//import { images } from "../../constants";
 import cosmonautLogo from "../../assets/logo_cosmonaut.png";
 import kadenaLogo from "../../assets/logo_text.png";
 
 const Navbar = () => {
   //const [toggle, setToggle] = useState(false);
-  const bgColor = "var(--tertiary-color-bg)";
-  const textColor = "var(--primary-color-text)";
-  const fontFamily = "var(--font-base)";
   const handleDownloadClick = () => {};
 
   return (
-    <nav
+    <div
       className="header"
       style={{
         display: "flex",
+        flexDirection: "column", //i added this
         height: "4rem",
         width: "100%",
-        padding: "0 9%",
+        padding: "0.75rem 0rem",
         justifyContent: "space-between",
         alignItems: "center",
         alignSelf: "stretch",
         position: "fixed",
-        backgroundColor: bgColor,
+        backgroundColor: "var(--tertiary-color-bg",
       }}
     >
       <div
         className="header-content"
         style={{
           display: "flex",
-          //maxWidth: "70rem",
+          width: "70rem",
           justifyContent: "space-between",
           alignItems: "center",
           flex: "1 0 0",
-          alignSelf: "stretch",
+          //alignSelf: "stretch",
         }}
       >
         <div
@@ -101,12 +94,12 @@ const Navbar = () => {
             >
               <a
                 style={{
-                  fontFamily: fontFamily,
+                  fontFamily: "var(--font-base)",
                   fontSize: "0.875rem",
                   fontStyle: "normal",
                   fontWeight: 500,
                   letterSpacing: "0,00625rem",
-                  color: textColor,
+                  color: "var(--primary-color-text)",
                 }}
                 href={`#${item}`}
               >
@@ -131,7 +124,7 @@ const Navbar = () => {
           </div>
         </ul>
       </div>
-    </nav>
+    </div>
   );
 };
 

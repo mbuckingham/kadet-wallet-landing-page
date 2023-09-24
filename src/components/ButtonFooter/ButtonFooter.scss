@@ -1,0 +1,23 @@
+.btn4 {
+  display: flex;
+  width: 375px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+  border-radius: 64px;
+  background: linear-gradient(110deg, #9aeca4 0%, #13678b 100%);
+  color: var(--tertiary-color-header);
+  text-align: center;
+  font-family: var(--font-base);
+  font-size: 26.68px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26.68px; /* 100% */
+  text-transform: capitalize;
+  border: none;
+  //padding: 0.625rem 1.5rem;
+
+  cursor: pointer;
+}
