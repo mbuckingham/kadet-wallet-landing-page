@@ -21,6 +21,7 @@ const Navbar = () => {
         alignSelf: "stretch",
         position: "fixed",
         backgroundColor: "var(--tertiary-color-bg",
+        zIndex: "1",
       }}
     >
       <div

@@ -17,7 +17,11 @@
   gap: 2.5rem;
   border-radius: 1.25rem;
   border: 2px solid var(--Gradient, #9aeca4);
-  background-filter: blur(0.75rem);
+  background: url(../../assets/feature-cardBG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(12px);
+  //background-filter: blur(0.75rem);
 }
 // card header + card text h1+p
 .cardContent {
@@ -56,5 +60,6 @@
   flex: 1 0 0;
   align-self: stretch;
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }

@@ -1,6 +1,7 @@
 import React from "react";
-import { ButtonHero, Wrapper } from "../../components";
+import { ButtonMission, Wrapper } from "../../components";
 import kadetMission from "../../assets/planet_tokens.png";
+import arrowDark from "../../assets/arrow_dark.png";
 
 const KadetMission = () => {
   return (
@@ -49,7 +50,7 @@ const KadetMission = () => {
           Kadet Wallet was designed with beginners in mind. To make your
           entrance into the world of digital finance simple and easy.
         </p>
-        <ButtonHero>Start Learning -</ButtonHero>
+        <ButtonMission icon={arrowDark}>Start Learning</ButtonMission>
       </div>
       <div
         className="missionImage"

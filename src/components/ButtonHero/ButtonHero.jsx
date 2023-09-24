@@ -15,8 +15,10 @@ const ButtonHero = ({ children, onClick, icon }) => {
 
   return (
     <button className="btn2" onClick={handleButtonClick}>
-      {icon && <img src={icon} alt="Icon" className="btn-icon" />}
-      <span className="btn-text">{children}</span>
+      <div className="btn2Content">
+        {icon && <img src={icon} alt="Icon" className="btn-icon" />}
+        <span className="btn-text">{children}</span>
+      </div>
     </button>
   );
 };
