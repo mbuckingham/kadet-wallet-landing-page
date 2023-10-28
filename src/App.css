@@ -1,19 +1,36 @@
 .app {
   background: var(--stars-bg), lightgray;
-  background-size: 50px 50px, auto;
+  background-size: 3.125rem 3.125rem, auto;
   background-position: center, 0 0;
   background-repeat: repeat, repeat;
   font-family: var(--font-base);
   display: flex;
-  width: 100%; /*1440px*/
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }
 .appContainer {
   display: flex;
-  max-width: 1120px;
-  padding: 144px 0px;
+  max-width: 70rem;
+  padding: 9rem 0rem;
   flex-direction: column;
   align-items: center;
-  gap: 144px;
+  gap: 9rem;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .appContainer {
+    display: flex;
+    max-width: 35rem;
+    padding: 4.5rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.5rem;
+  }
 }

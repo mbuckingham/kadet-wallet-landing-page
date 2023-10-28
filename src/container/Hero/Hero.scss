@@ -1,0 +1,49 @@
+.wrapper-hero {
+  display: flex;
+  width: 70rem;
+  align-items: center;
+  gap: 2rem;
+}
+
+.heroImage {
+  display: flex;
+  height: 45.875rem;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  background-image: url("../../assets/hero_rockets.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.heroText h1 {
+  color: var(--primary-color-header);
+  font-family: var(--font-base);
+  font-size: 3.56rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.036rem;
+  text-transform: none;
+  margin-top: 9rem; /* Converted from 9rem to 4.5rem */
+}
+
+.heroText p {
+  color: var(--secondary-color-text);
+  font-family: var(--font-base);
+  font-size: 1.44rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.014rem;
+  text-transform: none;
+  margin-top: 1.6rem;
+}
