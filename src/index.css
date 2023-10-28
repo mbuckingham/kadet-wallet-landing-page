@@ -1,16 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap");
 
 :root {
-  --font-base: "DM Sans", sans-serif;
-
-  --primary-color: #1e1e39;
-  --secondary-color: #98cc7b;
-  --black-color: #030303;
-  --lightGray-color: #e4e4e4;
-  --gray-color: #262729;
-  --brown-color: #46364a;
-  --white-color: #ffffff;
+  --font-base: "Work Sans", sans-serif;
+  /*text-color */
+  --primary-color-text: #fff;
+  --secondary-color-text: #c1c9be;
+  --tertiary-color-text: #002c33;
+  --quaternary-color-text: #f1f4f3;
+  /*header-color */
+  --primary-color-header: #e3e8e7;
+  --secondary-color-header: #9aeca4;
+  --tertiary-color-header: #131734;
+  /*backgrounds */
+  --stars-bg: url("../src/assets/stars_bg.png");
+  --planet-bg: url("../src/assets/planet_footer.png");
+  --astronaut-bg: url("../src/assets/logo_astronaut.png");
+  --primary-color-bg: var(
+    --Gradient,
+    linear-gradient(110deg, #9aeca4 0%, #13678b 100%)
+  );
+  --secondary-color-bg: #171c1b;
+  --tertiary-color-bg: rgba(41, 102, 112, 0.16);
 }
 
 * {

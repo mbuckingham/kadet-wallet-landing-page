@@ -1,16 +1,22 @@
 import React from "react";
 import "./Button.scss";
-import { images } from "../../constants";
 
-const Button = () => {
+const Button = ({ buttonText, onClick, icon }) => {
+  const handleButtonClick = () => {
+    const downloadLink = document.createElement("a");
+    downloadLink.href = "https://";
+    downloadLink.target = "_blank";
+    downloadLink.rel = "noopener noreferrer";
+    downloadLink.click();
+    if (onClick) {
+      onClick();
+    }
+  };
   return (
-    <div className="btn">
-      <button type="button" /*className="p-text" onClick={handleSubmit}*/>
-        <img src={images.chrome_logo} alt="chrome_logo" />
-        {/* {!loading ? "Send Message" : "Sending..."} */}
-        Download Extension
-      </button>
-    </div>
+    <button className="btn" onClick={handleButtonClick}>
+      {icon && <img src={icon} alt="icon" className="btn-icon" />}
+      {buttonText}
+    </button>
   );
 };
 

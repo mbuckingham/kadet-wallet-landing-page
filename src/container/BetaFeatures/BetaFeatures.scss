@@ -1,0 +1,65 @@
+.betaContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 2.5rem;
+  align-self: stretch;
+}
+
+.card {
+  display: flex;
+  height: 33.75rem;
+  width: 33.75rem;
+  padding: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  border-radius: 1.25rem;
+  border: 0.125rem solid var(--Gradient, #9aeca4);
+  background: url(../../assets/feature-cardBG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(0.75rem);
+  //background-filter: blur(0.75rem);
+}
+// card header + card text h1+p
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  align-self: stretch;
+}
+.cardHeader {
+  color: var(--primary-color-header);
+  font-family: var(--font-base);
+  font-size: 2.06rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.021rem;
+  text-transform: none;
+}
+
+.cardText {
+  color: var(--secondary-color-text);
+  font-family: var(--font-base);
+  font-size: 1.44rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.014rem;
+  text-transform: none;
+  text-align: center;
+  align-self: stretch;
+}
+
+.cardImage {
+  flex: 1 0 0;
+  align-self: stretch;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
